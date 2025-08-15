@@ -2,22 +2,31 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 h1{
     font-weight: 600;
     font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h2{
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 60px;
 }
 
 input, button{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
+    height: 50px;
 }
 
 button{
@@ -28,4 +37,12 @@ p{
     font-weight: 400;
     font-size: 14px;
 }
+
+#principal{
+    width: 55%;
+    height: 500px;
+    margin: 100px auto;
+}
+
+
 
