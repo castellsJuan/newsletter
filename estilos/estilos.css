@@ -24,8 +24,9 @@ input, button{
     font-size: 16px;
     display: block;
     text-align: center;
-    margin: 20px auto;
-    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
     height: 50px;
 }
 
@@ -42,6 +43,19 @@ p{
     width: 55%;
     height: 500px;
     margin: 100px auto;
+}
+
+#formulario{
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    padding: 25px;
+    background-color: blanchedalmond;
+}
+
+form{
+    margin: 0 auto;
+    background-color: aquamarine;
 }
 
 
