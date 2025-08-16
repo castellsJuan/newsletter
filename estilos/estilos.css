@@ -16,6 +16,7 @@ h2{
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 60px;
+    color: #6C727F;
 }
 
 input, button{
@@ -34,13 +35,21 @@ input, button{
     background-color: #F9FAFB;
 }
 
+input::placeholder{
+    color: #394150;
+}
+
 button{
     font-weight: 600;
+    color: #FFFFFF;
+    background-color: #284BCE;
+    border: none;
 }
 
 p{
     font-weight: 400;
     font-size: 14px;
+    color: #6C727F;
 }
 
 #principal{
