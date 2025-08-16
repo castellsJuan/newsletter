@@ -50,6 +50,7 @@ p{
     font-weight: 400;
     font-size: 14px;
     color: #6C727F;
+    margin-bottom: 0px;
 }
 
 #principal{
@@ -75,4 +76,33 @@ form{
 }
 
 
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    #principal{
+        width: 70%;
+    }
+}
 
+@media (min-width: 375px) and (max-width: 640px){
+    #principal{
+        width: 90%;
+    }
+
+    h1{
+        font-weight: 600;
+        font-size: 44px;
+    }
+    
+    h2{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    #formulario{
+        width: 90%;
+    }
+
+    p{
+        text-align: left;
+    }
+}
